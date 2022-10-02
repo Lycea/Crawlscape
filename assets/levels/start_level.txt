@@ -1,0 +1,15 @@
+local data ={
+{"Solid",x =0,y =592,w =800,h =16,},
+{"Solid",x =784,y =0,w =16,h =592,},
+{"Solid",x =0,y =0,w =16,h =592,},
+{"Solid",x =16,y =0,w =768,h =288,},
+{"Solid",x =16,y =336,w =768,h =256,},
+{"Solid",x =16,y =288,w =80,h =48,},
+{"Door",x =768,y =288,w =16,h =48,},
+{"Spawn",x =144,y =304,w =16,h =16,},
+
+}
+local info ={
+    state = "crawl"
+}
+return {data,info}
